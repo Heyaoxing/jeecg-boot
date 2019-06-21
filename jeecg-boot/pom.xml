@@ -203,8 +203,11 @@
 			<artifactId>springfox-bean-validators</artifactId>
 			<version>2.9.2</version>
 		</dependency>
-		
-		
+		<dependency>
+			<groupId>com.hankcs</groupId>
+			<artifactId>hanlp</artifactId>
+			<version>portable-1.7.3</version>
+		</dependency>
 		<!-- Redis -->
 		<dependency>
 			 <groupId>org.springframework.boot</groupId>
@@ -214,7 +217,11 @@
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-pool2</artifactId>
         </dependency>
-        
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpclient</artifactId>
+			<version>4.5.6</version>
+		</dependency>
 		<!-- 代码生成器 -->
 		<!-- 如果下载失败，看这个链接http://jeecg-boot.mydoc.io/?t=344850 -->
 		<dependency>

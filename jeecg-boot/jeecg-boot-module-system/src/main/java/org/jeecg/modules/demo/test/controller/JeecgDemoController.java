@@ -325,4 +325,19 @@ public class JeecgDemoController extends JeecgController<JeecgDemo,IJeecgDemoSer
 		return result;
 	}
 
+	/**
+	 * hello world
+	 *
+	 * @param
+	 * @return
+	 */
+	@GetMapping(value = "/hello")
+	@ApiOperation(value = "hello", notes = "hello")
+	public Result<String> hello() {
+		Result<String> result = new Result<String>();
+		result.setResult("Hello World!");
+		result.setSuccess(true);
+		return result;
+	}
+
 }
