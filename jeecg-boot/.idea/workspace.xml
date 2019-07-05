@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bc3f945c-03ce-4312-bb6f-1411d40bb186" name="Default Changelist" comment="Merge branch 'master' of https://github.com/Heyaoxing/jeecg-boot&#10;&#10;# Conflicts:&#10;#&#9;jeecg-boot/db/news_word_relation.sql&#10;#&#9;jeecg-boot/db/spider_36kr_record.sql&#10;#&#9;jeecg-boot/db/test_person.sql&#10;#&#9;jeecg-boot/db/test_title_info.sql&#10;#&#9;jeecg-boot/db/test_title_order.sql&#10;#&#9;jeecg-boot/db/test_user_info.sql&#10;#&#9;jeecg-boot/db/word_info.sql" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/jeecg_boot_parent$JeecgOneGUI.ic" NAME="JeecgOneGUI Coverage Results" MODIFIED="1560427903054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.jeecg.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-424899125">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jeecg-boot-module-system/src/main/java/org/jeecg/modules/quartz/job/KrSpiderJob.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="53" selection-start-line="53" selection-end-line="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jeecg-boot-module-system/src/main/java/org/jeecg/modules/quartz/job/AnalyzeWordJob.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="172">
+              <caret line="75" column="55" selection-start-line="75" selection-start-column="55" selection-end-line="75" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jeecg-boot-module-system/src/main/java/org/jeecg/modules/spider/service/impl/KrRecordServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="218">
+              <caret line="38" column="38" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
+              <folding>
+                <element signature="e#762#763#0" expanded="true" />
+                <element signature="e#815#816#0" expanded="true" />
+                <element signature="e#867#868#0" expanded="true" />
+                <element signature="e#920#921#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-core/5.1.5.RELEASE/spring-core-5.1.5.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="359">
+              <caret line="108" column="85" selection-start-line="108" selection-start-column="85" selection-end-line="108" selection-end-column="85" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jeecg-boot-module-system/src/main/java/org/jeecg/modules/quartz/job/HaohuaTestJob.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jeecg-boot-module-system/src/main/java/org/jeecg/modules/spider/service/IKrRecordService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jeecg-boot-module-system/src/main/java/org/jeecg/modules/quartz/job/CentralSpiderJob.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="201">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.m2/repository/org/apache/httpcomponents/httpcore/4.4.11/httpcore-4.4.11.jar!/org/apache/http/protocol/HTTP.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="215">
+              <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jeecg-boot-base-common/src/main/java/org/jeecg/common/enums/OplatformEnum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="181">
+              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jeecg-boot-module-system/src/main/java/org/jeecg/modules/spider/mapper/xml/KrRecordMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="427">
+              <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>descs</find>
+      <find>order</find>
+      <find>ORDER_TYPE</find>
+      <find>nrf</find>
+      <find>nr</find>
+      <find>w</find>
+      <find>rr</find>
+      <find>vi</find>
+      <find>vn</find>
+      <find>b</find>
+      <find>q</find>
+      <find>m</find>
+      <find>nx</find>
+      <find>a</find>
+      <find>mq</find>
+      <find>rz</find>
+      <find>n</find>
+      <find>nz</find>
+      <find>ng</find>
+      <find>ntc</find>
+      <find>total</find>
+      <find>krRecordService</find>
+      <find>doPost</find>
+      <find>doPostByJson</find>
+      <find>HttpRequestExecutor</find>
+      <find>'</find>
+      <find>BaseResultMap</find>
+      <find>krRecords</find>
+      <find>krId</find>
+      <find>selectMaxKrId</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>\&quot;</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="jeecg-boot-parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="jeecg-boot-parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <autoscrollFromSource ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="jeecg-boot-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jeecg-boot" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562327577863" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.jeecg.modules.quartz.job" />
+      <recent name="org.jeecg.common.util" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\GitHub\jeecg-boot\jeecg-boot\jeecg-boot-module-system\src\main\java\org\jeecg\modules\spider\entity" />
+      <recent name="F:\GitHub\jeecg-boot\jeecg-boot\jeecg-boot-module-system\src\main\java\org\jeecg\modules" />
+      <recent name="F:\GitHub\jeecg-boot\jeecg-boot\jeecg-boot-module-system\src\main\resources" />
+      <recent name="F:\GitHub\jeecg-boot\jeecg-boot\jeecg-boot-base-common\src\main\java\org\jeecg\common\util" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="06aec85c-da09-4103-9ba4-ce62a7fbab0e" name="Default Changelist" comment="" />
+      <created>1560132722437</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1560132722437</updated>
+      <workItem from="1560132724076" duration="2972000" />
+      <workItem from="1560332303602" duration="18138000" />
+      <workItem from="1560504857972" duration="4971000" />
+      <workItem from="1560755166510" duration="57188000" />
+      <workItem from="1560938318937" duration="30181000" />
+      <workItem from="1561117120787" duration="658000" />
+      <workItem from="1561120228347" duration="663000" />
+      <workItem from="1561357495538" duration="3000" />
+      <workItem from="1562060446788" duration="8632000" />
+      <workItem from="1562318407475" duration="7725000" />
+    </task>
+    <task id="LOCAL-00001" summary="Merge branch 'master' of https://github.com/Heyaoxing/jeecg-boot&#10;&#10;# Conflicts:&#10;#&#9;jeecg-boot/db/news_word_relation.sql&#10;#&#9;jeecg-boot/db/spider_36kr_record.sql&#10;#&#9;jeecg-boot/db/test_person.sql&#10;#&#9;jeecg-boot/db/test_title_info.sql&#10;#&#9;jeecg-boot/db/test_title_order.sql&#10;#&#9;jeecg-boot/db/test_user_info.sql&#10;#&#9;jeecg-boot/db/word_info.sql">
+      <created>1562325240393</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1562325240393</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="152000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26126608" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.6662959" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8814378" weight="0.18353726" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49892703" weight="0.7141268" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32925472" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.39043382" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49946353" weight="0.32925472" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.11856223" side_tool="true" visible="true" weight="0.18353726" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49946353" weight="0.37263626" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32925472" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.49827588" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.3299356" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Database" order="8" weight="0.3299356" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.3299356" />
+      <window_info anchor="right" id="Coverage" order="10" sideWeight="0.5017241" side_tool="true" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Merge branch 'master' of https://github.com/Heyaoxing/jeecg-boot&#10;&#10;# Conflicts:&#10;#&#9;jeecg-boot/db/news_word_relation.sql&#10;#&#9;jeecg-boot/db/spider_36kr_record.sql&#10;#&#9;jeecg-boot/db/test_person.sql&#10;#&#9;jeecg-boot/db/test_title_info.sql&#10;#&#9;jeecg-boot/db/test_title_order.sql&#10;#&#9;jeecg-boot/db/test_user_info.sql&#10;#&#9;jeecg-boot/db/word_info.sql" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/Heyaoxing/jeecg-boot&#10;&#10;# Conflicts:&#10;#&#9;jeecg-boot/db/news_word_relation.sql&#10;#&#9;jeecg-boot/db/spider_36kr_record.sql&#10;#&#9;jeecg-boot/db/test_person.sql&#10;#&#9;jeecg-boot/db/test_title_info.sql&#10;#&#9;jeecg-boot/db/test_title_order.sql&#10;#&#9;jeecg-boot/db/test_user_info.sql&#10;#&#9;jeecg-boot/db/word_info.sql" />
+  </component>
+</project>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.jeecg.modules.news.mapper.NewsWordMapper">
+
+    <select id="selectWordColud" resultType="org.jeecg.modules.news.dto.response.WordCloudResDto"  parameterType="java.lang.String">
+        SELECT  a.word as x,count(a.word) as value,b.word as category from news_word_relation  as a
+        JOIN news_word_relation as b on a.new_id=b.new_id
+        where b.word_id=#{wordId} and a.word_id !=#{wordId} GROUP BY a.word ORDER BY count(a.word) desc
+    </select>
+</mapper>

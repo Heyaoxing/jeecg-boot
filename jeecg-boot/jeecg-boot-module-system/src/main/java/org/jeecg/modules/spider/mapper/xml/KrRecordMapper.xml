@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.jeecg.modules.spider.mapper.KrRecordMapper">
+    <resultMap id="BaseResultMap" type="org.jeecg.modules.spider.entity.KrRecord">
+        <id column="id" jdbcType="VARCHAR" property="id" />
+        <result column="kr_id" jdbcType="INTEGER" property="krId" />
+        <result column="titile" jdbcType="VARCHAR" property="titile" />
+        <result column="description" jdbcType="VARCHAR" property="description" />
+        <result column="updated_at" jdbcType="TIMESTAMP" property="updatedAt" />
+        <result column="news_url" jdbcType="VARCHAR" property="newsUrl" />
+        <result column="published_at" jdbcType="TIMESTAMP" property="publishedAt" />
+        <result column="create_by" jdbcType="VARCHAR" property="createBy" />
+        <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+        <result column="update_by" jdbcType="VARCHAR" property="updateBy" />
+        <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+        <result column="is_analyze" jdbcType="TINYINT" property="isAnalyze" />
+    </resultMap>
+
+    <select id="selectMaxKrId" resultType="java.lang.Integer" parameterType="java.lang.Integer">
+select MAX(kr_id) from spider_36kr_record where oplatform_core=#{oplatformCore}
+    </select>
+
+    <select id="selectMinKrId" resultType="java.lang.Integer" parameterType="java.lang.Integer">
+select MIN(kr_id) from spider_36kr_record  where oplatform_core=#{oplatformCore}
+    </select>
+
+    <select id="selectNotAnalyze" resultMap="BaseResultMap" parameterType="java.lang.Integer">
+        SELECT id,titile,description,published_at  from spider_36kr_record where is_analyze=0 ORDER BY create_time DESC LIMIT #{size}
+    </select>
+</mapper>
