@@ -126,7 +126,13 @@
 		   <artifactId>druid-spring-boot-starter</artifactId>
 		   <version>${druid.version}</version>
 		</dependency>
-		
+
+		<dependency>
+			<groupId>org.bytedeco</groupId>
+			<artifactId>javacv-platform</artifactId>
+			<version>1.5.2</version>
+		</dependency>
+
 		<!-- 动态数据源 -->
 		<dependency>
 		  <groupId>com.baomidou</groupId>
