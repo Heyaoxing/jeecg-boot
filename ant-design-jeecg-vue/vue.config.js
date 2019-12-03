@@ -63,7 +63,7 @@ module.exports = {
         }
       },*/
       '/jeecg-boot': {
-        target: 'http://localhost:8080', //请求本地 需要jeecg-boot后台项目
+        target: 'http://122.51.38.45:8080', //请求本地 需要jeecg-boot后台项目
         ws: false,
         changeOrigin: true
       },
