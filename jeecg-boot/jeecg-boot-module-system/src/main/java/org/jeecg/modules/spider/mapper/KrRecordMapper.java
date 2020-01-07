@@ -29,4 +29,6 @@ public interface KrRecordMapper extends BaseMapper<KrRecord> {
      * 查询未分词kr新闻
      */
     List<KrRecord> selectNotAnalyze(@Param("size") Integer size);
+
+    Integer selectByKrId(@Param("krId") Integer krId,@Param("oplatformCore") Integer oplatformCore);
 }

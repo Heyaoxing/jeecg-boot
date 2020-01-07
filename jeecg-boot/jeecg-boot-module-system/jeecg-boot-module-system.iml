@@ -329,6 +329,7 @@
     <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpclient:4.5.6" level="project" />
     <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpcore:4.4.11" level="project" />
     <orderEntry type="library" name="Maven: org.jeecgframework.boot:codegenerate:1.0.5" level="project" />
+    <orderEntry type="library" name="Maven: org.jsoup:jsoup:1.12.1" level="project" />
     <orderEntry type="library" name="Maven: org.jeecgframework:autopoi-web:1.0.3" level="project" />
     <orderEntry type="library" name="Maven: org.jeecgframework:autopoi:1.0.3" level="project" />
     <orderEntry type="library" name="Maven: org.apache.poi:poi:3.9" level="project" />

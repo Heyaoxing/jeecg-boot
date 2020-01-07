@@ -48,9 +48,13 @@ public class HttpRequestExecutor {
         return null;
 	}
 
-
-
 	public static HttpResponse doGet(CloseableHttpClient httpclient, String uri, Header... headers)
+			throws ClientProtocolException, IOException{
+		return doGet(httpclient,uri,"UTF-8",headers);
+	}
+
+
+	public static HttpResponse doGet(CloseableHttpClient httpclient, String uri,String defaultCharset, Header... headers)
 			throws ClientProtocolException, IOException{
 		String result = null;
 		HttpGet httpGet = new HttpGet(uri);
@@ -64,7 +68,7 @@ public class HttpRequestExecutor {
 		int statusCode = response.getStatusLine().getStatusCode();
 		HttpEntity entity = response.getEntity();
 		if (entity != null) {
-			result = EntityUtils.toString(entity, "UTF-8");
+			result = EntityUtils.toString(entity, defaultCharset);
 		}
 		return new HttpResponse(statusCode,costsMilliseconds,result);
 	}

@@ -10,7 +10,8 @@ import lombok.Data;
  */
 public enum OplatformEnum {
     KR_NEWS(1, "36kr"),
-    CENTRAL_NEWS(2, "新闻联播");
+    CENTRAL_NEWS(2, "新闻联播"),
+    SNEEZE_NEWS(3, "喷嚏图挂");
 
     private Integer code;
     private String descript;

@@ -27,4 +27,8 @@ select MIN(kr_id) from spider_36kr_record  where oplatform_core=#{oplatformCore}
     <select id="selectNotAnalyze" resultMap="BaseResultMap" parameterType="java.lang.Integer">
         SELECT id,titile,description,published_at  from spider_36kr_record where is_analyze=0 ORDER BY create_time DESC LIMIT #{size}
     </select>
+
+    <select id="selectByKrId" resultType="java.lang.Integer">
+       select count(id) from spider_36kr_record where kr_id=#{krId} AND  oplatform_core=#{oplatformCore}
+    </select>
 </mapper>

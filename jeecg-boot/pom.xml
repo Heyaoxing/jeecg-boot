@@ -235,7 +235,13 @@
 			<artifactId>codegenerate</artifactId>
 			<version>1.0.5</version>
 		</dependency>
-		
+
+		<dependency>
+			<groupId>org.jsoup</groupId>
+			<artifactId>jsoup</artifactId>
+			<version>1.12.1</version>
+		</dependency>
+
         <!-- AutoPoi Excel工具类-->
 		<dependency>
 			<groupId>org.jeecgframework</groupId>

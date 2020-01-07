@@ -38,4 +38,10 @@ public class KrRecordServiceImpl extends ServiceImpl<KrRecordMapper, KrRecord> i
         if (Objects.isNull(size) || size <= 0) size = 10;
         return krRecordMapper.selectNotAnalyze(size);
     }
+
+    @Override
+    public boolean checkKrId(int krId,int oplatformCore){
+        return krRecordMapper.selectByKrId(krId,oplatformCore)>0;
+    }
+
 }

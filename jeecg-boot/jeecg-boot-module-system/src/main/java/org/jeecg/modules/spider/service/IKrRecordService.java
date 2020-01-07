@@ -29,4 +29,6 @@ public interface IKrRecordService extends IService<KrRecord> {
      * 查询未分词kr新闻
      */
     List<KrRecord> selectNotAnalyze(@Param("size") Integer size);
+
+    boolean checkKrId(int krId,int oplatformCore);
 }

@@ -128,8 +128,8 @@ public class KrSpiderJob implements Job {
             log.info("开始推送到企业微信机器人");
             String url=StringUtils.isEmpty(item.getNewsUrl())?"url":item.getNewsUrl();
             String content=String.format(temple,item.getTitile(),item.getDescription(),url);
-            String res=  HttpRequestExecutor.doPostByJson("https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=305df922-5ab5-4870-9d13-6664f340c65b",content);
-            log.info("推送到企业微信机器人 结果{} 耗时:{} content:{} ",res,System.currentTimeMillis()-start,content);
+           // String res=  HttpRequestExecutor.doPostByJson("https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=305df922-5ab5-4870-9d13-6664f340c65b",content);
+          //  log.info("推送到企业微信机器人 结果{} 耗时:{} content:{} ",res,System.currentTimeMillis()-start,content);
         }
 
         if (isSave) {
