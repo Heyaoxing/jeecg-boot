@@ -48,62 +48,6 @@
     <expand />
     <select />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-424899125">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="14" />
-          <entry key="project.open.time.1" value="5" />
-          <entry key="project.open.time.15" value="1" />
-          <entry key="project.open.time.2" value="3" />
-          <entry key="project.open.time.3" value="2" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="13" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="class" value="26" />
-          <entry key="iml" value="1" />
-          <entry key="java" value="182" />
-          <entry key="properties" value="2" />
-          <entry key="vue" value="5" />
-          <entry key="xml" value="14" />
-          <entry key="yml" value="13" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CLASS" value="26" />
-          <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="182" />
-          <entry key="PLAIN_TEXT" value="5" />
-          <entry key="Properties" value="2" />
-          <entry key="XML" value="14" />
-          <entry key="YAML" value="13" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="dummy" value="32" />
-          <entry key="java" value="5476" />
-          <entry key="properties" value="5" />
-          <entry key="xml" value="50" />
-          <entry key="yml" value="22" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="5476" />
-          <entry key="PLAIN_TEXT" value="32" />
-          <entry key="Properties" value="5" />
-          <entry key="XML" value="50" />
-          <entry key="YAML" value="22" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
@@ -422,13 +366,13 @@
     <configuration name="JavaCVTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.jeecg.JavaCVTest" />
       <module name="jeecg-boot-module-system" />
+      <shortenClasspath name="MANIFEST" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.jeecg.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <shortenClasspath name="MANIFEST" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -449,13 +393,13 @@
     <configuration name="NewVideoTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.jeecg.NewVideoTest" />
       <module name="jeecg-boot-module-system" />
+      <shortenClasspath name="MANIFEST" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.jeecg.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <shortenClasspath name="MANIFEST" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -463,13 +407,13 @@
     <configuration name="VideoTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.jeecg.VideoTest" />
       <module name="jeecg-boot-module-system" />
+      <shortenClasspath name="MANIFEST" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.jeecg.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <shortenClasspath name="MANIFEST" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -511,12 +455,12 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.JeecgApplication" />
       <item itemvalue="Application.JavaCVTest" />
       <item itemvalue="Application.VideoTest" />
       <item itemvalue="Application.NewVideoTest" />
-      <item itemvalue="JUnit.HtmlTest.spider" />
       <item itemvalue="Application.JeecgOneGUI" />
+      <item itemvalue="JUnit.HtmlTest.spider" />
+      <item itemvalue="Spring Boot.JeecgApplication" />
     </list>
     <recent_temporary>
       <list>

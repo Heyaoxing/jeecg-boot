@@ -107,11 +107,22 @@
           </div>  
         </span>
 
-         <span slot="wordtip" slot-scope="text, record">
+         <!-- <span slot="wordtip" slot-scope="text, record">
           <span v-for="word in record.words">
               <a-tag color="#FF9999" @click="loadCloud(word.value)">{{word.key}}</a-tag>
           </span>
+        </span> -->
+
+         <span slot="imagetip" slot-scope="text, record">
+         <div v-if="record.imageUrl.length>0">
+            <div style="width:104px;height:104px;">
+              <div >
+                <img style="width: 100%;" :src="record.imageUrl" :preview="record.krId">
+              </div>
+            </div>
+          </div>  
         </span>
+
       </a-table>
     </div>
     <!-- table区域-end -->
@@ -183,6 +194,7 @@
 		   {
             title: '标题',
             align:"center",
+            width:200,
             dataIndex: 'titleformat',
             scopedSlots: { customRender: 'titleformat' },
            },
@@ -191,15 +203,22 @@
             align:"left",
             dataIndex: 'description'
            },
-            {
-            title: '标签',
-            align:"center",
-            dataIndex: 'wordtip',
-            scopedSlots: { customRender: 'wordtip' },
+          //   {
+          //   title: '标签',
+          //   align:"center",
+          //   dataIndex: 'wordtip',
+          //   scopedSlots: { customRender: 'wordtip' },
+          //  },
+
+             {
+            title: '图片',
+            dataIndex: 'imagetip',
+            scopedSlots: { customRender: 'imagetip' },
            },
 		   {
             title: '更新日期',
             align:"center",
+            width:150,
             dataIndex: 'updatedAt'
            },
           {
