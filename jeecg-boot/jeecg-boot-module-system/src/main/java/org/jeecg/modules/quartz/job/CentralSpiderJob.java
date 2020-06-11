@@ -51,11 +51,11 @@ public class CentralSpiderJob implements Job {
 
     @Override
     public void execute(JobExecutionContext jobExecutionContext) throws JobExecutionException {
-        int dateId = Integer.parseInt(parameter);
+        Long dateId = Long.parseLong(parameter);
         spider(dateId);
     }
 
-    private void spider(int dateId) {
+    private void spider(Long dateId) {
 
         CloseableHttpClient httpClient = null;
         String result = null;
@@ -110,7 +110,7 @@ public class CentralSpiderJob implements Job {
             list.add(krRecord);
         }
 
-        Integer maxKrId = krRecordService.selectMaxKrId(OplatformEnum.CENTRAL_NEWS.getCode());
+        Long maxKrId = krRecordService.selectMaxKrId(OplatformEnum.CENTRAL_NEWS.getCode());
         List<KrRecord> krRecords=list;
         if(Objects.nonNull(maxKrId)){
             krRecords = list.stream().filter(p -> p.getKrId() > maxKrId).collect(Collectors.toList());

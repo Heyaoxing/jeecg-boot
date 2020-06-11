@@ -24,12 +24,12 @@ public class KrRecordServiceImpl extends ServiceImpl<KrRecordMapper, KrRecord> i
     private KrRecordMapper krRecordMapper;
 
     @Override
-    public Integer selectMaxKrId(Integer oplatformCore) {
+    public Long selectMaxKrId(Integer oplatformCore) {
         return krRecordMapper.selectMaxKrId(oplatformCore);
     }
 
     @Override
-    public Integer selectMinKrId(Integer oplatformCore) {
+    public Long selectMinKrId(Integer oplatformCore) {
         return krRecordMapper.selectMinKrId(oplatformCore);
     }
 
@@ -40,7 +40,7 @@ public class KrRecordServiceImpl extends ServiceImpl<KrRecordMapper, KrRecord> i
     }
 
     @Override
-    public boolean checkKrId(int krId,int oplatformCore){
+    public boolean checkKrId(Long krId,int oplatformCore){
         return krRecordMapper.selectByKrId(krId,oplatformCore)>0;
     }
 

@@ -3,7 +3,7 @@
 <mapper namespace="org.jeecg.modules.spider.mapper.KrRecordMapper">
     <resultMap id="BaseResultMap" type="org.jeecg.modules.spider.entity.KrRecord">
         <id column="id" jdbcType="VARCHAR" property="id" />
-        <result column="kr_id" jdbcType="INTEGER" property="krId" />
+        <result column="kr_id" jdbcType="BIGINT" property="krId" />
         <result column="titile" jdbcType="VARCHAR" property="titile" />
         <result column="description" jdbcType="VARCHAR" property="description" />
         <result column="updated_at" jdbcType="TIMESTAMP" property="updatedAt" />
@@ -16,11 +16,11 @@
         <result column="is_analyze" jdbcType="TINYINT" property="isAnalyze" />
     </resultMap>
 
-    <select id="selectMaxKrId" resultType="java.lang.Integer" parameterType="java.lang.Integer">
+    <select id="selectMaxKrId" resultType="java.lang.Long" parameterType="java.lang.Integer">
 select MAX(kr_id) from spider_36kr_record where oplatform_core=#{oplatformCore}
     </select>
 
-    <select id="selectMinKrId" resultType="java.lang.Integer" parameterType="java.lang.Integer">
+    <select id="selectMinKrId" resultType="java.lang.Long" parameterType="java.lang.Integer">
 select MIN(kr_id) from spider_36kr_record  where oplatform_core=#{oplatformCore}
     </select>
 

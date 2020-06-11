@@ -17,18 +17,18 @@ public interface KrRecordMapper extends BaseMapper<KrRecord> {
      * 查询36kr最大id
      * @return
      */
-    Integer selectMaxKrId(@Param("oplatformCore") Integer oplatformCore);
+    Long selectMaxKrId(@Param("oplatformCore") Integer oplatformCore);
 
     /**
      * 查询36kr最小id
      * @return
      */
-    Integer selectMinKrId(@Param("oplatformCore") Integer oplatformCore);
+    Long selectMinKrId(@Param("oplatformCore") Integer oplatformCore);
 
     /**
      * 查询未分词kr新闻
      */
     List<KrRecord> selectNotAnalyze(@Param("size") Integer size);
 
-    Integer selectByKrId(@Param("krId") Integer krId,@Param("oplatformCore") Integer oplatformCore);
+    Integer selectByKrId(@Param("krId") Long krId,@Param("oplatformCore") Integer oplatformCore);
 }

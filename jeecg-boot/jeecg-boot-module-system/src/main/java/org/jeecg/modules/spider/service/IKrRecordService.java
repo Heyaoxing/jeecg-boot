@@ -17,18 +17,18 @@ public interface IKrRecordService extends IService<KrRecord> {
      * 查询36kr最大id
      * @return
      */
-    Integer selectMaxKrId(Integer oplatformCore);
+    Long selectMaxKrId(Integer oplatformCore);
 
     /**
      * 查询36kr最小id
      * @return
      */
-    Integer selectMinKrId(Integer oplatformCore);
+    Long selectMinKrId(Integer oplatformCore);
 
     /**
      * 查询未分词kr新闻
      */
     List<KrRecord> selectNotAnalyze(@Param("size") Integer size);
 
-    boolean checkKrId(int krId,int oplatformCore);
+    boolean checkKrId(Long krId,int oplatformCore);
 }

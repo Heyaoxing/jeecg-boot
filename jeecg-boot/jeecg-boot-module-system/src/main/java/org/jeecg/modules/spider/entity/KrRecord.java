@@ -35,7 +35,7 @@ public class KrRecord {
 	/**平台推文id*/
 	@Excel(name = "平台推文id", width = 15)
     @ApiModelProperty(value = "平台推文id")
-	private Integer krId;
+	private Long krId;
 	/**标题*/
 	@Excel(name = "标题", width = 15)
     @ApiModelProperty(value = "标题")

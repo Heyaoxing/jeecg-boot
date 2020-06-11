@@ -49,14 +49,14 @@ public class SneezeSpiderJob implements Job {
             return;
         }
 
-        Map<Integer, String> urls = new HashedMap();
+        Map<Long, String> urls = new HashedMap();
         for (Element item : li) {
             String href = item.select("a").attr("href");
             String idStr = parse(href).get("id");
             if (!StringUtils.isNumeric(idStr)) {
                 continue;
             }
-            int id = Integer.parseInt(idStr);
+            Long id = Long.parseLong(idStr);
             boolean exists = krRecordService.checkKrId(id, OplatformEnum.SNEEZE_NEWS.getCode());
             if (exists) {
                 continue;
@@ -75,7 +75,7 @@ public class SneezeSpiderJob implements Job {
         });
     }
 
-    private void process(String url, int id) throws IOException {
+    private void process(String url, Long id) throws IOException {
         Document newDocument = Jsoup.connect(url).get();
         if (Objects.isNull(newDocument)) {
             return;
